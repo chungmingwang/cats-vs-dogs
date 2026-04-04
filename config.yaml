@@ -1,6 +1,6 @@
 data:
-  raw_dir: "/content/drive/MyDrive/cats-vs-dogs/data"
-  work_dir: "/content/cats-vs-dogs-data"
+  raw_dir: "/content/drive/MyDrive/cats-vs-dogs/data/train"
+  work_dir: "/content/cats-vs-dogs-data/train"
   val_split: 0.1
   num_workers: 2
   image_size: 224
@@ -13,9 +13,9 @@ model:
 training:
   epochs: 20
   batch_size: 32
-  learning_rate: 1e-3
+  learning_rate: 0.001
   seed: 42
-  resume: false
+  resume: true
 
 output:
   dir: "/content/drive/MyDrive/cats-vs-dogs/outputs"

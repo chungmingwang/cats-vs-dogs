@@ -37,7 +37,7 @@ def main():
     # --- Data ---
     data_cfg = config["data"]
     raw_dir = data_cfg["raw_dir"]
-    image_size = data_cfg["image_size"]
+    image_size = data_cfg["image_size"] # should be self-consistent with model input size (e.g. 224 for ResNet)
 
     # Copy dataset to work_dir for faster I/O on Colab
     work_dir = data_cfg.get("work_dir")
