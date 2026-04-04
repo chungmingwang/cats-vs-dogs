@@ -1,0 +1,32 @@
+# Data
+data/
+train/
+test1/
+*.zip
+
+# Model outputs
+outputs/
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Kaggle
+kaggle.json
