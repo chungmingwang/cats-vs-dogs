@@ -92,3 +92,8 @@ Steps in the notebook:
 | AUC-ROC   | ~0.99+ |
 
 > Results may vary slightly depending on random seed and hardware.
+
+## Results
+
+![Confusion Matrix](results/confusion_matrix.png)
+![ROC Curve](results/roc_curve.png)
