@@ -85,7 +85,7 @@ def main():
     # --- Data ---
     data_cfg = config["data"]
     image_size = data_cfg["image_size"]
-    raw_dir = data_cfg.get("work_dir") or data_cfg["raw_dir"]
+    raw_dir = data_cfg["raw_dir"]
 
     samples = build_samples(raw_dir)
     _, val_samples = split_samples(
