@@ -6,8 +6,10 @@ data:
   image_size: 224
 
 model:
-  backbone: "efficientnet_b0"
-  pretrained: true
+  # "baseline_cnn"    : custom 3-block CNN (no pretrained weights)
+  # "efficientnet_b0" : EfficientNet-B0 pretrained on ImageNet
+  backbone: "baseline_cnn"
+  pretrained: false
   num_classes: 2
 
 training:
