@@ -82,18 +82,14 @@ Steps in the notebook:
 7. Evaluate
 8. Display confusion matrix and ROC curve inline
 
-## Expected Results
+## Results
 
 | Metric    | Value  |
 |-----------|--------|
-| Accuracy  | ~0.97+ |
-| Precision | ~0.97+ |
-| Recall    | ~0.97+ |
-| AUC-ROC   | ~0.99+ |
-
-> Results may vary slightly depending on random seed and hardware.
-
-## Results
+| Accuracy  | 0.9880 |
+| Precision | 0.9887 |
+| Recall    | 0.9871 |
+| AUC-ROC   | 0.9992 |
 
 ![Confusion Matrix](results/confusion_matrix.png)
 ![ROC Curve](results/roc_curve.png)
