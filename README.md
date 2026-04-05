@@ -32,17 +32,21 @@ pip install -r requirements.txt
 ## Data Preparation
 
 1. Download `dogs-vs-cats.zip` from https://www.kaggle.com/competitions/dogs-vs-cats/data
-2. Unzip and place the training images under `data/raw/`:
+2. Unzip and place the training images under `raw/train/`:
 
 ```
-data/raw/
+raw/train/
 ├── cat.0.jpg
 ├── cat.1.jpg
 ├── dog.0.jpg
 └── ...
 ```
 
-3. Update `raw_dir` in `config.yaml` to point to your `data/raw/` path.
+3. Update `raw_dir` in `config.yaml` to point to your image folder.
+
+> **`work_dir` (Colab only)**  
+> Google Drive I/O is slow. On Colab, set `work_dir` to a local path (e.g. `/content/cats-vs-dogs-data`) and the training script will copy the dataset there automatically before training.  
+> When running locally, set `work_dir` to the same value as `raw_dir` (or leave it identical) to skip the copy.
 
 ## Train
 

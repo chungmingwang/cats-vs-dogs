@@ -30,3 +30,6 @@ venv/
 
 # Kaggle
 kaggle.json
+
+# Confidential
+*.docx

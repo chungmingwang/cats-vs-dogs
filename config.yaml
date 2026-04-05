@@ -1,5 +1,5 @@
 data:
-  raw_dir: "/content/drive/MyDrive/cats-vs-dogs/data/train"
+  raw_dir: "/content/drive/MyDrive/cats-vs-dogs/raw/train"
   work_dir: "/content/cats-vs-dogs-data/train"
   val_split: 0.1
   num_workers: 2
