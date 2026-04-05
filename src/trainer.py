@@ -67,7 +67,7 @@ class Trainer:
         self.optimizer = torch.optim.AdamW(
             model.parameters(),
             lr=train_cfg["learning_rate"],
-            weight_decay=1e-4,
+            weight_decay=0.0001,
         )
         self.scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
             self.optimizer,
